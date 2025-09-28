@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+#app {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+#taskInput {
+  width: 70%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+#addTask {
+  padding: 8px 14px;
+  margin-left: 6px;
+  border: none;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addTask:hover {
+  background: #5a43e0;
+}
+
+#taskList {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+#taskList li span {
+  flex: 1;
+}
+
+#taskList li input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+#taskList li button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #e53935;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#taskList li button:hover {
+  background: #c62828;
+}
