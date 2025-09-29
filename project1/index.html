@@ -7,10 +7,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container">    
     <h1>Random Color Picker</h1>
     <div class="color-box" id="colorBox">#FFFFFF</div>
     <button id="generateBtn">Generate Color</button>
+    <button id="copyBtn">Copy HEX</button>
+   <div class="toggle-container">
+  <input type="checkbox" id="modeToggle">
+  <label for="modeToggle" class="switch"></label>
+  <span id="modeLabel">Gradient Mode</span>
+</div>
+
+    <div id="rgbBox"></div>
+    
+
   </div>
 
   <script src="script.js"></script>
